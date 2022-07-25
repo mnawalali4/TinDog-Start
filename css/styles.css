@@ -18,7 +18,7 @@
 }
 
 .icon:hover{
-    color: #ff4c68;
+    color: #ff4c68;   
 }
 
 #testimonials{
@@ -40,4 +40,17 @@
 
 .press-logo{
     width: 15%;
+}
+
+#cta{
+    text-align: center;
+    background-color: #ff4c68;
+    color: white;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+#footer{
+    text-align: center;
+    
 }
