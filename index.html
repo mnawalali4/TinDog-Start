@@ -19,6 +19,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
 
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+
  <!--  for icons fontawesome is used -->
   <script src="https://kit.fontawesome.com/2f25ccd70e.js" crossorigin="anonymous"></script>
 
@@ -72,7 +74,7 @@
 
       <div class="col-lg ">
 
-        <h1 style="color: white; line-height:1.5; font-size:3.5rem">Meet new and interesting dogs nearby.</h1>
+        <h1 style="color: white; line-height:1.5; font-size:3.5rem">Find new and interesting dogs nearby.</h1>
 
         <div class="my-3 ">       
           <button type="button" class="btn btn-outline-light btn-lg  "> <i class="fa-brands fa-google-play"></i> Download</button>
@@ -81,8 +83,8 @@
 
       </div>
       
-      <div class="col-lg">
-        <img src="images/iphone6.png" alt="iphone-mockup" style="width: 50%;">
+      <div class="col-lg pb-3">
+        <img src="images/iphone6.png" alt="iphone-mockup" style="width: 45%;">
       </div>
 
     </div>
@@ -93,49 +95,99 @@
 
   <!-- Features -->
 
-  <section id="features">
+  <section id="features" class="mx-5 my-7">
 
-    <h3>Easy to use.</h3>
-    <p>So easy to use, even your dog could do it.</p>
+    <div class="row ">
 
-    <h3>Elite Clientele</h3>
-    <p>We have all the dogs, the greatest dogs.</p>
+   
+      <div class="col-lg-4 px-4" style="text-align:center; ">
+        <i class="fa-solid fa-circle-check fa-4x icon"></i>
+        <h3 style="font-family: 'Open Sans', sans-serif; font-size: 2rem">Easy to use.</h3>
+        <p style="font-family: 'Open Sans', sans-serif; font-size: 1rem; color: gray;">So easy to use, even your dog could do it.</p>
+      </div >
+   
 
-    <h3>Guaranteed to work.</h3>
-    <p>Find the love of your dog's life or your money back.</p>
+    <div class="col-lg-4 px-4" style="text-align:center ;">
+      <i class="fa-solid fa-bullseye fa-4x icon"></i>
+      <h3 style="font-family: 'Open Sans', sans-serif; font-size: 2rem">Elite Clientele</h3>
+      <p style="font-family: 'Open Sans', sans-serif; font-size: 1rem; color: gray;">We have all the dogs, the greatest dogs.</p>
+    </div>
+    
+
+    <div class="col-lg-4 px-4" style="text-align:center ;">
+      <i class="fa-solid fa-heart fa-4x icon"></i>
+      <h3 style="font-family: 'Open Sans', sans-serif; font-size: 2rem">Guaranteed to work.</h3>
+      <p style="font-family: 'Open Sans', sans-serif; font-size: 1rem; color: gray;">Find your favorite dog or get your money back.</p>
+    </div>
+    
+
+  </div>
 
   </section>
 
 
   <!-- Testimonials -->
 
-  <section id="testimonials">
+  <section id="testimonials" class=" mt-7">
 
-    <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
-    <img src="images/dog-img.jpg" alt="dog-profile">
-    <em>Pebbles, New York</em>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" >
 
-    <!-- <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
-    <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
-    <em>Beverly, Illinois</em> -->
+      <div class="carousel-inner">
 
+        <div class="carousel-item active ">
+
+          <div class="container py-5">    
+            <h2 class="px-7">I have found the best dog ever on TinDog. I will definitely recommend it my friends. </h2>
+            <img src="images/dog-img.jpg" alt="dog-profile" class="testimonial-img">
+            <em>Pebbles, New York</em>
+          </div>
+
+        </div>
+
+        <div class="carousel-item">
+
+          <div class="container py-5">
+            <h2 class="px-7">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
+            <img class="testimonial-img" src="images/lady-img.jpg" alt="lady-profile">
+            <em>Beverly, Illinois</em>
+          </div>
+
+        </div>
+  
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    
+
+    
   </section>
 
 
   <!-- Press -->
 
   <section id="press">
-    <img src="images/techcrunch.png" alt="tc-logo">
-    <img src="images/tnw.png" alt="tnw-logo">
-    <img src="images/bizinsider.png" alt="biz-insider-logo">
-    <img src="images/mashable.png" alt="mashable-logo">
+    <div class="py-5 ">   
+      <img class = "press-logo mx-4" src="images/techcrunch.png" alt="tc-logo">
+      <img class = "press-logo mx-4" src="images/tnw.png" alt="tnw-logo">
+      <img class = "press-logo mx-4" src="images/bizinsider.png" alt="biz-insider-logo">
+      <img class = "press-logo mx-4" src="images/mashable.png" alt="mashable-logo">
+    </div>
 
   </section>
 
 
   <!-- Pricing -->
 
-  <section id="pricing">
+  <section id="pricing" class="my-5 container">
 
     <h2>A Plan for Every Dog's Needs</h2>
     <p>Simple and affordable price plans for your and your dog.</p>

@@ -1,0 +1,43 @@
+.my-7{
+    margin-top: 6rem;   
+    margin-bottom: 6rem;
+}
+
+.mt-7{
+    margin-top: 6rem;   
+}
+
+.px-7{
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #ff4c68;
+}
+
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: white
+}
+
+.testimonial-img{
+    width: 10%;
+    border-radius: 100%;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+}
